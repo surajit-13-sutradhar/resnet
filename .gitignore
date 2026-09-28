@@ -1,0 +1,96 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ML / PyTorch
+# =========================
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# TensorBoard
+runs/
+tensorboard/
+
+# =========================
+# Data
+# =========================
+
+# Downloaded datasets
+data/*
+
+# Keep the directory itself
+!data/.gitkeep
+
+# Specifically ignore compressed datasets
+*.tar.gz
+*.zip
+*.7z
+
+# =========================
+# Experiment Outputs
+# =========================
+experiments/*
+results/*
+
+# Keep directories
+!experiments/.gitkeep
+!results/.gitkeep
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak

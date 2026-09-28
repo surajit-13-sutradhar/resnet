@@ -1,0 +1,7 @@
+# torch/torchvision: the CUDA index URL:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+numpy
+matplotlib
+tqdm
+pandas
+pyyaml
